@@ -1,33 +1,70 @@
-.index-header,.recipe-header{
+body{
+    background-color:aliceblue;
+}
+.header,.recipe-header{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    color:black;
+    margin: 10px;
+    padding: 5px;
+    border: 5px solid lightblue;
+    text-align:center;
+    height: fit-content;
+}
+.recipe-index{
+    width: auto;
+    height: 200px;
+    border: 5px solid lightblue;
+    margin: 100px 10px;
+    padding: 5px;
+    vertical-align: middle;
+}
+
+.crazy-chef{
+    width: 200px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 100px;
+    padding: 5px;
+}
+
+.recipes{
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 125px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    font-style: italic;
+}
+
+.recipe-page-image{
+    margin:10px;
     text-align: center;
-    font-family: Verdana, Tahoma, sans-serif;
-    background-color: khaki;
+    border: 5px solid lightblue;
 }
 
-.crazy-chef,.recipe-image{
+.recipe-image{
+    width: 500px;
     height: auto;
-    width: 800px;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
+    margin: 10px;
 }
-
-ul, ol, h2, p{
-    font-family: Verdana, Tahoma, sans-serif;
+.description,.ingredients,.steps{
+    font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
+    color:black;
+    margin: 10px;
+    padding: 5px;
+    border: 5px solid lightblue;
+    text-align:justify;
+    height: fit-content;
 }
 
-h2, h3{
-    background-color: lightblue;
-}
-
-h3{
-    font-family: Verdana, Tahoma, sans-serif;
-    font-size: medium;
-}
-
-button.home-link{
+button{
     font-size: x-large;
     font-family: Verdana, Tahoma, sans-serif;
     text-align: center;
+    background-color: lightpink;
+    width: 100px;
+    height: fit-content;
+    margin: 10px;
 }
